@@ -1,0 +1,56 @@
+/* Chat.css */
+
+/* 样式化聊天容器 */
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  /* 样式化消息框 */
+  .chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  /* 样式化消息 */
+  .message {
+    padding: 8px;
+    margin: 4px 0;
+    border-radius: 8px;
+    max-width: 70%;
+  }
+  
+  /* 样式化用户消息 */
+  .user {
+    align-self: flex-end;
+    background-color: #cce6ff;
+  }
+  
+  /* 样式化发送表单 */
+  .chat-form {
+    display: flex;
+    margin-top: 20px;
+  }
+  
+  /* 样式化输入框 */
+  .input-field {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  
+  /* 样式化发送按钮 */
+  .submit-button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }
+  
